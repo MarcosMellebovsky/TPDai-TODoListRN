@@ -55,7 +55,8 @@ const Tarea = ({ id, texto, descripcion, tiempo, completada, tareas, setTareas }
           {texto}
         </Text>
         <Text style={styles.descripcion}>
-          {descripcion}  {/* Añade esta línea */}
+          {descripcion}  
+
         </Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={eliminarTarea} style={styles.button}>
